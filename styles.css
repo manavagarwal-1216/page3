@@ -1,0 +1,363 @@
+#tick{
+    margin-top: 2.5vh;
+}
+
+#line1{
+    font-family: Quicksand;
+    font-size: 24px;
+    letter-spacing: 0.05px;
+}
+
+#line2{
+    font-family: Quicksand;
+    font-size: 18px;
+    letter-spacing: 0.05px;
+}
+
+
+
+
+
+
+
+
+.mobile{
+    background-image: url(./assets/office12.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+.filter{
+  background-color:#f48070;
+   border-top-left-radius: 20px; 
+   border-bottom-left-radius: 20px;
+    width:4.5rem; text-align: left;
+    
+}
+
+.filter1{
+    border-top-right-radius: 20px;border-bottom-right-radius: 20px; width:22rem; text-align: left;
+    
+   
+}
+
+*:focus{
+    outline: none;
+}
+
+.highlighted{
+    margin-left: 2rem;
+}
+.navbar{
+    background-color: black;
+}
+.logo{
+    padding-left: 10%;
+}
+.navbar-text{
+    color: white;
+    margin-right: 5rem;
+}
+
+.drop{
+    border-radius: 20px;
+    width: 169px;
+    height: 44px; 
+    margin-left: 2rem;
+}
+#dropdownMenuButton{
+    background-color:#f48070;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    width: 12.5rem;
+}
+#searchbutton{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 18.75rem;
+   
+}
+.icon-bag{
+    height: 3.125rem;
+    width: 3.125rem;
+}
+.bukit-home-logo{
+    height: 9.438rem;
+    width: 21.938rem;
+    margin-left: 6.25rem;
+    margin-top: 18.75rem;
+}
+.rectangle{
+    display: inline-block;
+    background-color: white;
+    width: 40vw;
+    height: 45vh;
+    position: absolute;
+    right: 9.25rem;
+    top:9.375rem;
+    font-family: Quicksand;
+    border-radius: 4px;
+}
+.line-1{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 2.5rem;
+   
+}
+.line-2{
+    font-size: 1.125rem;
+    text-align: center;
+    margin-top: 1.25rem;
+}
+.sized-box{
+    height: 1.75rem;
+    width: 42.563rem;
+}
+.inputbox{
+    border-radius: 1.25rem;
+    width: 20vw;
+    height: 5vh;
+    margin-left: 2rem;
+}
+.biginputbox{
+    border-radius: 1.25rem;
+    margin-left: 2rem;
+    height: 5vh;
+    width: 42vw;
+}
+#nextbutton{
+    position: absolute;
+    margin-left: 38vw;
+    background-color: #f48070;
+    border-radius: 1.25rem;
+    width: 5vw;
+    height: 5vh;
+    color: white;
+}
+.text-copyright{
+    position: absolute;
+    right: 26.438rem;
+    top: 35.75rem;
+    font-family: Quicksand;
+    color: white;
+}
+input[type="text"] {  
+    padding-left: 1rem;
+} 
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: lightskyblue;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile View */
+
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+    .filter{
+        background-color:#f48070;
+         border-top-left-radius: 20px; 
+         border-bottom-left-radius: 20px;
+          width:3.5rem; text-align: left;
+      }
+      
+      .filter1{
+          border-top-right-radius: 20px;border-bottom-right-radius: 20px; width:3rem; text-align: left;
+      }
+      
+      
+          .highlighted{
+              margin-left: auto;
+              color: white;
+          }
+          .mobile{
+              background-image:block
+          }
+      
+          .bukit-home-logo{
+              display:none
+          }
+      
+          .rectangle{
+              background-color:transparent;
+      
+              left:85px;
+              
+             
+              font-family: Quicksand;
+          }
+      
+          .line-1{
+              font-size: 2.0rem;
+              text-align: center;
+              margin-top: 2.5rem;
+              color: white;
+             
+          }
+          .line-2{
+              font-size: 1.125rem;
+              text-align: center;
+              margin-top: 1.25rem;
+              color: white;
+          }
+      
+          .sized-box{
+              display:none
+          }
+          
+          .inputbox{
+              border-radius: 1.25rem;
+              margin-top:4%;
+              width: 50vw;
+              height: 5vh;
+              margin-left: 0.5rem;
+          }
+      
+          .biginputbox{
+              border-radius: 1.25rem;
+              margin-top:4%;
+              width: 50vw;
+              height: 5vh;
+              margin-left: 0.5rem;
+          }
+      
+          .drop{
+              border-radius: 1.25rem;
+              margin-top:4%;
+              width: 50vw;
+              height: 5vh;
+              margin-left: 0.5rem;
+          }
+      
+          #nextbutton{
+              margin-top: 40%;
+              width:50%;
+              margin-left: 30%;
+      margin-right: 30%
+          }
+  }
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+
+    .filter{
+  background-color:#f48070;
+   border-top-left-radius: 20px; 
+   border-bottom-left-radius: 20px;
+    width:3.5rem; text-align: left;
+}
+
+.filter1{
+    border-top-right-radius: 20px;border-bottom-right-radius: 20px; width:3rem; text-align: left;
+}
+
+#searchbutton{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 8.75rem;
+   
+}
+
+    .highlighted{
+        margin-left: auto;
+        color: white;
+    }
+    .mobile{
+        background-image:block
+    }
+
+    .bukit-home-logo{
+        display:none
+    }
+
+    .rectangle{
+        background-color:transparent;
+
+        left:85px;
+        
+       
+        font-family: Quicksand;
+    }
+
+    .line-1{
+        font-size: 2.0rem;
+        text-align: center;
+        margin-top: 2.5rem;
+        color: white;
+       
+    }
+    .line-2{
+        font-size: 1.125rem;
+        text-align: center;
+        margin-top: 1.25rem;
+        color: white;
+    }
+
+    .sized-box{
+        display:none
+    }
+    
+    .inputbox{
+        border-radius: 1.25rem;
+        margin-top:4%;
+        width: 50vw;
+        height: 5vh;
+        margin-left: 0.5rem;
+    }
+
+    .biginputbox{
+        border-radius: 1.25rem;
+        margin-top:4%;
+        width: 50vw;
+        height: 5vh;
+        margin-left: 0.5rem;
+    }
+
+    .drop{
+        border-radius: 1.25rem;
+        margin-top:4%;
+        width: 50vw;
+        height: 5vh;
+        margin-left: 0.5rem;
+    }
+
+    #nextbutton{
+        margin-top: 40%;
+        width:50%;
+        margin-left: 30%;
+margin-right: 30%
+    }
+  }
+  
